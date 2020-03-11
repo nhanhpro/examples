@@ -1,22 +1,12 @@
-[![Mux Examples](https://banner.mux.dev/Examples.svg)](https://mux.com)
+# Hola! 👋
 
-# Mux Examples
+### **Welcome to Uiza, the video streaming as code!** 
 
-Get to know Mux by looking through examples! Contributions are always welcome, either in the form of code that lives here or a link to another repo.
+We aim to provide developers with an end-to-end video streaming solution that offers simple integration and stable performance at scale. At the very beginning of our roadmap, we tackle the problem that is considered the most severe, _**video and live stream delivery**_. The proximity between the infrastructure and the streamer/viewer is the key factor that influence the quality of the video streams. Setting up and managing a wide network of infrastructures that penetrates locally to reach out as closely as possible to the streamers and viewers in various cities are tough. The first version of our brand-new platform is created to solve this problem.
 
-## Examples
+{% hint style="success" %}
+Our **key differentiation** is that we are developing a diversified network of infrastructures that does not only rely on public cloud like Amazon Web Services, Google Cloud Platform, or Digital Ocean, but also a wide range of local infrastructures those are rooted in lower-tier cities like _Bengaluru, Kolkata, Chennai_... This means your viewers will most likely _watch the videos being streamed from the infrastructure located in the same city of theirs_, which improves the quality and scalability of the video streams significantly.
+{% endhint %}
 
-| Name                                                    | Description                                                                                                                                                                   | Tags                  | Languages  |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------- |
-| <nobr>[android-live-javacv](android-live-javacv)</nobr> | Small modifications to a JavaCV example that allows you to publish an RTMP stream directly to Mux.                                                                            | Live, Mobile          | Java       |
-| [contentful-uploader](contentful-uploader)              | Contentful UI extension that allows you to add Video to your [Contentful](https://contentful.com) space.                                                                      | VOD, CMS, Integration | JavaScript |
-| [now-airtable](now-airtable)                            | [Zeit Now](https://zeit.co/now) + [Airtable](https://airtable.com/). Build your own personal Video CMS using Now, [Next.js](https://nextjs.org/), and your own Airtable base. | VOD, CMS              | JavaScript |
-| [signed-playback-lambda](signed-playback-lambda)        | AWS Lambda that allows you to generate signed Mux playback URLs.														  | VOD, Serverless       | JavaScript |
+![](.gitbook/assets/mesh-network.gif)
 
-## Examples in the wild
-
-These are just things we've found in the wild internet. If you've written or know of one, [submit a PR](https://help.github.com/en/articles/creating-a-pull-request) and add it!
-
-| Name                                                                                | Description                                                                                                                                                                                                   | Source                         | Tags         | Languages  |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------ | ---------- |
-| [ReactNative Livestream Example](https://github.com/Syntx-io/RN-Livestream-Example) | Livestreaming with [React Native](https://facebook.github.io/react-native/) & Mux. For more information, see the [blog post](https://medium.com/syntx-io/video-live-streaming-with-react-native-98a0f6354077) | [Syntx](https://www.syntx.io/) | Live, Mobile | JavaScript |
